@@ -109,6 +109,8 @@ def play_hangman():
             print HANGMAN[hang_size]
     return user_guessed_word_spaced == word_to_guess_spaced
 
+
+#main
 if __name__ == '__main__':
     is_winner = play_hangman()
     if is_winner:
